@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "906988598574",
+    "firebase_url": "https://tests-6fd54.firebaseio.com",
+    "project_id": "tests-6fd54",
+    "storage_bucket": "tests-6fd54.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:906988598574:android:9863edd96664d0afa876bf",
+        "android_client_info": {
+          "package_name": "apps.coders4togo.tests"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "906988598574-61n29ecah9qd7co6ori38oe3m1a84adl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvyc6pWLkcKJIU4VYq0sXsj7f2U43ciQc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "906988598574-61n29ecah9qd7co6ori38oe3m1a84adl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

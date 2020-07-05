@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".AddFragment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        app:title="Ajout"
+        app:subtitle="Ajouter des Médicaments"
+        app:subtitleTextColor="@color/White"
+        app:titleTextColor="@color/White"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:layout_height="65dp">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <RelativeLayout
+        android:id="@+id/rlyt1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="65dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ajoût de Médicament"
+            android:textSize="26dp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/Black"
+            android:layout_marginTop="25dp">
+
+        </TextView>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/sv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rlyt1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="25dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingBottom="50dp">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="75dp"
+                        android:padding="10dp"
+                        android:layout_marginTop="0dp"
+                        android:gravity="center">
+
+                        <EditText
+                            android:layout_width="350dp"
+                            android:layout_height="40dp"
+                            android:hint="Nom du médicament"
+                            android:textColorHint="@color/colorPrimary"
+                            android:textSize="20dp"
+                            android:textColor="@color/Black">
+
+                        </EditText>
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="75dp"
+                        android:padding="10dp"
+                        android:layout_marginTop="0dp"
+                        android:gravity="center">
+
+                        <EditText
+                            android:layout_width="350dp"
+                            android:layout_height="40dp"
+                            android:hint="Type de médicament"
+                            android:textColorHint="@color/colorPrimary"
+                            android:textSize="20dp"
+                            android:textColor="@color/Black">
+
+                        </EditText>
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="75dp"
+                        android:padding="10dp"
+                        android:layout_marginTop="0dp"
+                        android:gravity="center">
+
+                        <EditText
+                            android:layout_width="350dp"
+                            android:layout_height="40dp"
+                            android:hint="Masse du médicament"
+                            android:textColorHint="@color/colorPrimary"
+                            android:textSize="20dp"
+                            android:textColor="@color/Black">
+
+                        </EditText>
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="75dp"
+                        android:padding="10dp"
+                        android:layout_marginTop="0dp"
+                        android:gravity="center">
+
+                        <EditText
+                            android:layout_width="350dp"
+                            android:layout_height="40dp"
+                            android:hint="Prix du médicament"
+                            android:textColorHint="@color/colorPrimary"
+                            android:textSize="20dp"
+                            android:textColor="@color/Black">
+
+                        </EditText>
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="75dp"
+                        android:padding="10dp"
+                        android:layout_marginTop="0dp"
+                        android:gravity="center">
+
+                        <EditText
+                            android:layout_width="350dp"
+                            android:layout_height="40dp"
+                            android:hint="Faites un commentaire sur le médicament"
+                            android:textColorHint="@color/colorPrimary"
+                            android:textSize="20dp"
+                            android:textColor="@color/Black">
+
+                        </EditText>
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cv"
+                android:layout_alignLeft="@+id/cv"
+                android:layout_alignRight="@+id/cv"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="-50dp"
+                android:layout_marginRight="35dp"
+                android:elevation="10dp">
+
+                <Button
+                    android:id="@+id/save"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_ui"
+                    android:text="Ajouter"
+                    android:layout_marginBottom="35dp"
+                    android:textSize="25dp"
+                    android:textAllCaps="false"
+                    android:textColor="@color/White" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/cv"
+                android:layout_alignRight="@+id/cv"
+                android:layout_marginTop="-20dp"
+                android:layout_marginRight="-20dp"
+                android:elevation="10dp">
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

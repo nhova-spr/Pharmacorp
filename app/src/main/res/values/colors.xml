@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0B9502</color>
+    <color name="colorPrimaryDark">#096C01</color>
+    <color name="colorAccent">#0B9502</color>
+    <color name="White">#FFFFFF</color>
+    <color name="Black">#000000</color>
+
+    <color name="colorPurple">#983CFF</color>
+    <color name="colorPurpleT">#64983cff</color>
+    <color name="colorBlue">#2FB4FF</color>
+    <color name="colorBlueT">#642fb4ff</color>
+
+    <color name="CardViewDrugColor">#185113</color>
+    <color name="CardViewDrugPriceColor">#AA0AA2</color>
+    <color name="CardViewBackGround">#64919191</color>
+    <color name="CardViewOthers">#595757</color>
+
+</resources>

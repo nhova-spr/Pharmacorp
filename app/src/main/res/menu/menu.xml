@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/streamline"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/streamline_search"
+        android:title="Recherches" />
+
+    <item
+        android:id="@+id/add"
+        android:icon="@drawable/streamline_add"
+        android:title="Plus" />
+
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/streamline_profil"
+        android:title="Profil" />
+
+    <item
+        android:id="@+id/infos"
+        android:icon="@drawable/streamline_building_information"
+        android:title="A propos" />
+
+</menu>
